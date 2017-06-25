@@ -1,0 +1,40 @@
+/*
+Jialiang Liu
+4 May 2017
+CSE 154 AN
+TA: Joshua Crowgey
+Creative
+File: star_war_char_generator.css
+
+This is the css file for star_war_char_generator.html.
+*/
+
+
+body {
+    background-image: url("http://wallpapercave.com/wp/4ayVtEY.png");
+    color: white;
+    font-size: 3em;
+    font-family: cursive;
+    text-align: center;
+}
+
+#show-button {
+    font-size: inherit;
+    font-family: inherit;
+    height: 3em;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 10em;
+}
+
+#container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#hairbutton {
+    font-size: 30px;
+    height: 3em;
+    width: 8em;
+}

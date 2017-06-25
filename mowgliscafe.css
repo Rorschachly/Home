@@ -1,0 +1,44 @@
+body {
+    background-image: url("files/mowglis_background.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#white-background {
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+}
+
+#title-description {
+    font-style: italic;
+}
+
+header {
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+}
+
+fieldset {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+}
+
+#submit {
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+    /*height: 4em;*/
+    /*width: 20em;*/
+}

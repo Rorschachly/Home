@@ -1,0 +1,18 @@
+body {
+    font-size: 3em;
+    font-family: cursive;
+    text-align: center;
+}
+
+#test-button {
+    font-size: inherit;
+    font-family: inherit;
+    height: 5em;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 10em;
+}
+
+#test {
+    border: 5px solid black;
+}

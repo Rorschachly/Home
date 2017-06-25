@@ -1,0 +1,82 @@
+/*Jialiang Liu
+24 April 2017
+CSE 154 AN
+TA: Joshua Crowgey
+Creative
+File:index.css
+
+This is the css file for index.html.
+*/
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#guitartabs a {
+    color: black;
+}
+
+#works a {
+    color: white;
+}
+
+#bigheading {
+    height: 10%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#bigheading :hover {
+    border: solid;
+    border-radius: 100%;
+}
+
+#maincontent {
+    display: flex;
+    flex-direction: column;
+}
+
+#maincontent div {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#maincontent p {
+    margin: 0.5em;
+}
+
+#games, #books, #guitartabs, #bigheading {
+    background-color: white;
+    color: #333;
+}
+
+#aboutme, #movies, #works {
+    color: white;
+}
+
+#click-to-show {
+    position: fixed;
+}
+
+#works {
+    font-size: 32px;
+    text-align: center;
+}
+
+#bs-example-navbar-collapse-1 {
+    display: flex;
+
+}
+
+h2 {
+    font-size: 2em;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#maincontent a {
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}

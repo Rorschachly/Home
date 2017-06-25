@@ -1,0 +1,56 @@
+/*Jialiang Liu
+01 April 2017
+CSE 154 AN
+TA: Joshua Crowgey
+Creative01
+File:nba2k.css
+This is the css file for the nba2k.html file. It has the css code for my creative project page*/
+body {
+    background-image: url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/07/white-background-5.jpg);
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+#introduction {
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+
+h2 {
+    line-height: 25px;
+    text-decoration: underline;
+}
+
+#starters, ul{
+    text-align: left;
+}
+
+ul {
+    text-indent: 2em;
+}
+
+#thelink {
+    font-style: italic;
+}
+
+#bench, #benchLineUp {
+    text-align: justify;
+}
+#benchLineUp, li::first-letter {
+    font-weight: bold;
+}
+
+:visited {
+    color: blue;
+}
+
+strong {
+    letter-spacing: 3px;
+}
+
+a:hover {
+    background-color: cyan;
+}
